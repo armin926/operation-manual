@@ -18,7 +18,7 @@ module.exports = {
     ],
     // 侧边栏
     sidebar: [
-      '/intro/',
+      '/competition-doc/',
       '/login-doc/',
       '/pe-doc/',
       '/psy-doc/'
