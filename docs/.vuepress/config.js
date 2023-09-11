@@ -14,14 +14,14 @@ module.exports = {
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '跳转至平台', link: 'http://qionglai.cdwalker.com', target: '_blank' }
+      { text: '跳转至平台', link: 'http://qionglai.cdwalker.com/login', target: '_blank' }
     ],
     // 侧边栏
     sidebar: [
-      '/competition-doc/',
-      '/login-doc/',
-      '/pe-doc/',
-      '/psy-doc/'
+      '/competition-doc/'
+      // '/login-doc/',
+      // '/pe-doc/',
+      // '/psy-doc/'
     ],
     sidebarDepth: 1,
     displayAllHeaders: true, // 默认值：false
