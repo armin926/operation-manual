@@ -4,13 +4,15 @@ module.exports = {
   // 网站标题
   title: '操作手册',
   // 配置网站html的head标签 网站图标
-  head: [],
+  head: [
+    ['link', { rel: 'icon', href: '/logo1.png'}]
+  ],
   // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中
   description: '这是一段描述',
   // 主题配置
   themeConfig: {
     // 导航栏logo
-    logo: './public/logo1.png',
+    logo: '/logo1.png',
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
