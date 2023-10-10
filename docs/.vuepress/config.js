@@ -27,7 +27,7 @@ module.exports = {
     ],
     sidebarDepth: 1,
     displayAllHeaders: true, // 默认值：false
-    lastUpdated: '上次更新：',
+    lastUpdated: '上次更新',
     
   }
 }
